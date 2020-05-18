@@ -69,8 +69,8 @@ dependencies {
 
 sonarqube {
     properties {
-        property "sonar.projectName", "MyFirst"
-        property "sonar.projectKey", "MyFirst"
+        property "sonar.projectName", "MySonarDemoJnk"
+        property "sonar.projectKey", "MySonarDemoJnk"
         property "sonar.tests", "src/test/java"
         property "sonar.java.coveragePlugin", "jacoco"
         property "sonar.jacoco.reportPath", "**/jacoco/*.exec"
